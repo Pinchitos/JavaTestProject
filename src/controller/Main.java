@@ -14,7 +14,6 @@ public class Main {
 		coche.setCapacidad(52);
 		coche.setColor("Verde");
 		coche.setGastoCombustible(5);
-		coche.setCapacidad(55);
 
 		System.out.println(coche.toString());
 		System.out.println("El coche puede recorrer: " + OperacionesCoche.calculoAutonomia(coche) + " Km");
